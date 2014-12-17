@@ -23,12 +23,34 @@ For example:
 ```html
 THIS IS NOT IDEAL PRACTICE AND FOR EXERCISE PURPOSES ONLY
 <html>
-  <body>
+  <body bgcolor="BLUE">
   <p>Paragraph 1</p>
     <script type="text/javascript">
+    // Script block 1
+    alert("First Script Block");
+    </script>
+  <p>Paragraph 2</p>
+    <script type="text/javascript">
+    // Script block 2
     document.bgColor = "RED";
+    alert("Second Script Block");
+    </script>
+  <p>Paragraph 3</p>
+    <script type="text/javascript">
+    // Script block 2
+    document.bgColor = "ORANGE";
+    alert("Third Script Block");
     </script>
   </body>
 </html>
 
+
 ```
+Everything in the <scrpit> tags are javascript and the computer knows because of the 'type" explanation.
+What would normally be referred to as the *page* is now referred to as the *document* in JS, followed by a '.' and a particular property, in this case, background colour : ```bgColor```.
+
+As above and in the __test__ file, there are more elements to notice, the comments [ made by using // ], the ```alert()``` function - which is *modal*. This means it creates a pop up/ message box [ one that WONT GO AWAY until the user clicks the ok button ].
+
+It is important to note that the background colour set in the first paragraph is done in HTML, which means that the
+
+A __*function*__ takes some information, processes it, and gives you a result.
