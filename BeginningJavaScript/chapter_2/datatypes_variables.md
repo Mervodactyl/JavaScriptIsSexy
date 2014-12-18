@@ -9,3 +9,11 @@ Nnmbers:
 String:
   * Text
   * individual characters can be repreented by their character number in Latin, eg ```\xA9``` produces the copyright symbol, or their unicode number: ```\u00A9```.
+
+
+This is an expression: 13 + 4 + 7
+which JS will calculate, and then store as a variable.
+ exampleVariable + 1 / exampleVariable++
+ exampleVariable - 1 / exampleVariable--
+
+The operator precedence goes x | / above + | -. However, + | - have equal value, as does x | / so JS reads from left to right for precedence when solving an expression.
